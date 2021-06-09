@@ -2,8 +2,8 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5
 import base64
 import os, shutil
-from RSA_tools.generate_key import random_generator
-from generate_file_tree import *
+from file_encrypt.RSA_tools.generate_key import random_generator
+from file_encrypt.generate_file_tree import *
 
 
 class file(object):
